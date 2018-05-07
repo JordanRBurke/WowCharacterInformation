@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="customBlack">#120c0c</color>
+    <color name="mainSecondaryColor">#8f7e7e</color>
+    <color name="mainBackgroundColor">#765e5e</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
 </resources>
