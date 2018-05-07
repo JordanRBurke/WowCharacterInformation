@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_layout_reputation_item"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="9dp">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/constraint_layout_reputation_item"
+        app:layout_constraintRight_toRightOf="@id/constraint_layout_reputation_item"
+        app:layout_constraintLeft_toLeftOf="@id/constraint_layout_reputation_item"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:fontFamily="casual"
+        />
+
+    <TextView
+        android:id="@+id/current_rep_view"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@id/constraint_layout_reputation_item"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/maximum_rep_view"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        app:layout_constraintLeft_toRightOf="@id/current_rep_view"
+        app:layout_constraintBottom_toBottomOf="@id/constraint_layout_reputation_item"
+        android:textSize="20sp"/>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
