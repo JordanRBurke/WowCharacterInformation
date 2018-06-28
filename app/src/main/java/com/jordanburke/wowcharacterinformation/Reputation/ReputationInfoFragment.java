@@ -8,17 +8,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.jordanburke.wowcharacterinformation.R;
+
+import butterknife.ButterKnife;
+
 public class ReputationInfoFragment extends Fragment {
+
+
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-//        View view = inflater.inflate(R.layout.)
+        View view = inflater.inflate(R.layout.reputation_info_fragment, container,false);
+        ButterKnife.bind(this, view);
 
 
 
-        return null;
+        return view;
     }
 
     public static ReputationInfoFragment newInstance() {

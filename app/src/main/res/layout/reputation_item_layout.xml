@@ -8,15 +8,15 @@
     android:layout_margin="9dp">
 
     <TextView
+        android:id="@+id/faction_rep_name"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="@id/constraint_layout_reputation_item"
-        app:layout_constraintRight_toRightOf="@id/constraint_layout_reputation_item"
-        app:layout_constraintLeft_toLeftOf="@id/constraint_layout_reputation_item"
         android:layout_marginTop="10dp"
-        android:textSize="30sp"
         android:fontFamily="casual"
-        />
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="@id/constraint_layout_reputation_item"
+        app:layout_constraintRight_toRightOf="@id/constraint_layout_reputation_item"
+        app:layout_constraintTop_toTopOf="@id/constraint_layout_reputation_item" />
 
     <TextView
         android:id="@+id/current_rep_view"
